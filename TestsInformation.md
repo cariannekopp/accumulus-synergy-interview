@@ -17,14 +17,12 @@
 2. **Test "Total Value Equals the Length of ToDos"**
 
 **How test is designed:**
-- todo
-- todo
-- todo
+- This test asserts two variables are equal
+- The first variable is set to the length of the todos object in the response
+- The second variable is set to the value returned for total in the response
 
 **Why test is designed this way:**
-- todo
-- todo
-- todo
+- I chose to set the values to be compared to variables to make the test assertion more readable and easier to understand for a reviewer
 
 ---
 

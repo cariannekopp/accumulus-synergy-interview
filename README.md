@@ -2,8 +2,9 @@
 ---
 
 #### Test Automation Engineer Coding Challenge
-Welcome to the Accumulus coding challenge for the Test Automation team! It won’t take too
-long, and it’s an opportunity to show your stuff. 
+Welcome to the Accumulus coding challenge for the Test Automation team! 
+
+It won’t take too long, and it’s an opportunity to show your stuff. 
 
 **First, a couple of questions:**
 1) If you had to build an automated test framework from scratch, what would be your ideal
