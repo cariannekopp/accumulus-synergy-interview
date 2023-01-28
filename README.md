@@ -58,3 +58,22 @@ Please don’t spend more than 1.5-2 hours on it, this is supposed to be fun!
 When you are done, send us a link to the app, the npm or github repo, or by email to:
 michael.banham@accumulus.org. Or if you like, you can just make a brief video of your work
 and send that instead. Whatever is easiest for you to show us your work.
+
+---
+
+## Instructions for Reviewer
+
+**How To Run Postman API Tests via CLI:**
+- Run `npm install newman`
+- Run `newman run ToDoTests.json`
+Test Results will print to console
+
+**How to Run Postman API Tests via GUI:**
+- Download Postman GUI _or_ use Postman for web
+- In Postman, click the 'Import' button
+- In Postman, click the 'Upload Files' button and select the file in this repository named 'ToDoTests.json'
+- In Postman, click the 'Import' button
+- In Postman, click the 'Send' button
+Test Results will print under the 'Test Results' tab in Postman GUI
+
+
