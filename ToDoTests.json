@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "5d20cb9f-3c4c-4943-9ddf-38a723bb8823",
+		"name": "Accumulus Synergy Interview",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20373637"
+	},
+	"item": [
+		{
+			"name": "Get ToDos",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function() {",
+							"    pm.response.to.have.status(200)",
+							"})",
+							"",
+							"pm.test(\"Total Value Equals the Length of ToDos\", function() {",
+							"    var response = pm.response.json()",
+							"    var myToDos = response.todos.length",
+							"    var myTotal = response.total",
+							"    pm.expect(myToDos).to.eq(myTotal)",
+							"})",
+							"",
+							"pm.test(\"Todos are Sorted by id value\", function() {",
+							"    const myToDos = pm.response.json().todos",
+							"    let i;",
+							"    for(i = 0; i < (myToDos.length - 1); i++){",
+							"        if(myToDos[i].id < myToDos[i+1].id) {",
+							"            var pass = true",
+							"        } else {",
+							"            var pass = false",
+							"        }",
+							"        pm.expect(pass).to.eq(true)",
+							"    }",
+							"})",
+							"",
+							"pm.test(\"Id is type of Number\", function(){",
+							"    const myToDos = pm.response.json().todos",
+							"    let i;",
+							"    for(i = 0; i < myToDos.length; i++) {",
+							"        pm.expect(myToDos[i].id).to.be.a('Number')",
+							"    }",
+							"})",
+							"",
+							"pm.test(\"Todo is type of String\", function() {",
+							"    const myToDos = pm.response.json().todos",
+							"    let i;",
+							"    for(i = 0; i < myToDos.length; i++) {",
+							"        pm.expect(myToDos[i].todo).to.be.a('String')",
+							"    }",
+							"})",
+							"",
+							"pm.test(\"Completed is type of Boolean\", function() {",
+							"    const myToDos = pm.response.json().todos",
+							"    let i;",
+							"    for(i = 0; i < myToDos.length; i++) {",
+							"        pm.expect(myToDos[i].completed).to.be.a('Boolean')",
+							"    }",
+							"})",
+							"",
+							"pm.test(\"UserId is type of Number\", function() {",
+							"    const myToDos = pm.response.json().todos",
+							"    let i;",
+							"    for(i = 0; i < myToDos.length; i++) {",
+							"        pm.expect(myToDos[i].userId).to.be.a('Number')",
+							"    }",
+							"})",
+							"",
+							"pm.test(\"Total is type of Number\", function() {",
+							"    pm.expect(pm.response.json().total).to.be.a('Number')",
+							"})",
+							"",
+							"pm.test(\"Skip is type of Number\", function() {",
+							"    pm.expect(pm.response.json().skip).to.be.a('Number')",
+							"})",
+							"",
+							"pm.test(\"Limit is type of Number\", function() {",
+							"    pm.expect(pm.response.json().limit).to.be.a('Number')",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://todos.free.beeceptor.com/todos",
+					"protocol": "https",
+					"host": [
+						"todos",
+						"free",
+						"beeceptor",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
