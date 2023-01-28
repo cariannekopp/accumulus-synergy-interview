@@ -64,8 +64,11 @@ and send that instead. Whatever is easiest for you to show us your work.
 ## Instructions for Reviewer
 
 **How To Run Postman API Tests via CLI:**
-- Run `npm install newman`
+- Clone this repository
+- Navigate to this repository in terminal
+- Run `npm install newman` or `npm install`
 - Run `newman run ToDoTests.json`
+
 Test Results will print to console
 
 **How to Run Postman API Tests via GUI:**
@@ -74,6 +77,7 @@ Test Results will print to console
 - In Postman, click the 'Upload Files' button and select the file in this repository named 'ToDoTests.json'
 - In Postman, click the 'Import' button
 - In Postman, click the 'Send' button
+
 Test Results will print under the 'Test Results' tab in Postman GUI
 
 
