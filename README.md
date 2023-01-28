@@ -1,21 +1,30 @@
-# accumulus-synergy-interview
-Take Home Test for Accumulus Synergy
+### Take Home Test for Accumulus Synergy
+---
 
-
-Test Automation Engineer Coding Challenge
+#### Test Automation Engineer Coding Challenge
 Welcome to the Accumulus coding challenge for the Test Automation team! It won’t take too
-long, and it’s an opportunity to show your stuff. First, a couple of questions:
+long, and it’s an opportunity to show your stuff. 
+
+**First, a couple of questions:**
 1) If you had to build an automated test framework from scratch, what would be your ideal
 tech stack?
 
-2) What makes you a great Test Automation engineer, and why?
-That was easy, right?
+**Answer:** TODO
 
-Now for the fun part. Your task is to build a small test framework to test a simple api that gets a
+2) What makes you a great Test Automation engineer, and why?
+
+**Answer:** TODO
+
+---
+
+That was easy, right? Now for the fun part. 
+
+Your task is to build a small test framework to test a simple api that gets a
 list of ToDos. 
 
-The ToDo call should be a simple GET request that returns a JSON array something like:
+**The ToDo call should be a simple GET request that returns a JSON array something like:**
 
+```
 {
 "todos": [
 {
@@ -31,6 +40,7 @@ The ToDo call should be a simple GET request that returns a JSON array something
 "skip": 0,
 "limit": 30
 }
+```
 
 Using your favorite test automation tool, design a few tests to validate the service is functioning
 properly. 
