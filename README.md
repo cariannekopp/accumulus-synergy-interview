@@ -78,6 +78,7 @@ and send that instead. Whatever is easiest for you to show us your work.
 ---
 
 ## Instructions for Reviewer
+:exclamation: Please Read the contents of the file **"TestsInformation.md"** for the answers on _**How each test is designed**_ and _**Why each tests is designed that way**_
 
 **How To Run Postman API Tests via CLI:**
 - Clone this repository
