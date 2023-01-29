@@ -82,6 +82,7 @@ and send that instead. Whatever is easiest for you to show us your work.
 **How To Run Postman API Tests via CLI:**
 - Clone this repository
 - Navigate to this repository in terminal
+- Navigate to the testsPostman folder in terminal
 - Run `npm install newman` or `npm install`
 - Run `newman run ToDoTests.json`
 
@@ -95,5 +96,18 @@ Test Results will print to console
 - In Postman, click the 'Send' button
 
 Test Results will print under the 'Test Results' tab in Postman GUI
+
+**How to Run Playwright API Tests**
+- Clone this repository
+- Navigate to this repository in terminal
+- Navigate to the tests/API/ToDo folder in terminal
+- Run `npm install playwright` or `npm install`
+- Run `npx playwright test`
+
+Test Results will print in the console.
+
+To View an HTML report of the Tests Results, run `npx playwright show-report`
+
+
 
 
