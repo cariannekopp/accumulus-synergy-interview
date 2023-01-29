@@ -30,7 +30,7 @@ The UI Tests folder structure would be similiar to the E2E tests file structure 
 
 **Answer:** What if?
 
-My brain naturally has a disposition to always wonder "what if?" This has been my greatest strength while working in the testing field.  It has allowed me to capture countless edge cases while always question what we're building, why we're building it, and the endless ways a user may utilize our product. My pragmatic nature, combined with my inquisitive brain, has an aptitude to produce clear and concise documented test cases,thorough test coverage-resulting in products with superb quality.
+My brain naturally has a disposition to always wonder "what if?" This has been my greatest strength while working in the testing field.  It has allowed me to capture countless edge cases while always question what we're building, why we're building it, and the endless ways a user may utilize our product. My pragmatic nature, combined with my inquisitive brain, has an aptitude to produce clear and concise documented test cases and thorough test coverage-resulting in products with superb quality.
 
 ---
 
