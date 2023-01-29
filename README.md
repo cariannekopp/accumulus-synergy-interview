@@ -10,7 +10,7 @@ It won’t take too long, and it’s an opportunity to show your stuff.
 1) If you had to build an automated test framework from scratch, what would be your ideal
 tech stack?
 
-**Answer:** If I had to build an automated tests framework from scratch, I would likely include Playwright, Cucumber, Javascript, and Github Actions; architected using a POM approach.  
+**Answer:** If I had to build an automated test framework from scratch, I would likely include Playwright, Cucumber, Javascript, and Github Actions; architected using a POM approach.  
 
 I would first lay the foundation by creating a Tests folder which contained folders for our API tests, UI Tests, and our E2E tests.  
 
