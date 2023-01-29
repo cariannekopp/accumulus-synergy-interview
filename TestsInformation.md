@@ -29,7 +29,7 @@
 3. **Test "Todos are Sorted by id value"**
 
 **How test is designed:**
-- This test loops through the response body and using a conditional statement, verifies that Number returned for each iteration is less than the Number value for the next iteration
+- This test loops through the response body and using a conditional statement, verifies that the Number returned for each iteration is less than the Number value of the following iteration
 
 **Why test is designed this way:**
 - This test was purposefully designed to NOT check that the id values are increments of 1, even though the example response meets that criteria.
