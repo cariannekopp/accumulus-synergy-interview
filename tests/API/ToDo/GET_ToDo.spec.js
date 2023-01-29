@@ -1,7 +1,6 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 const { request } = require('@playwright/test');
-const playwright = require( '@playwright/test' );
 
 test.describe("ToDo API Tests", () => {
 
