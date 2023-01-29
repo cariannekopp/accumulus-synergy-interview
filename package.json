@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "newman": "^5.3.2"
-  }
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  },
+  "scripts": {}
 }
