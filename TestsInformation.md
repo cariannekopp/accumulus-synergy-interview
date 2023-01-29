@@ -48,5 +48,5 @@
 **Why tests are designed this way:**
 - These tests (except for Total, Skip, and Limit) were designed to verify EACH value type since it cannot be assumed that if the first value type is correct that the rest will be also correct
 - Even though all these types verify the correct type for a value was returned, they were purposefully not grouped into a single test.  This is because tests should ideally have 1 verification.  If one value's type did not pass verification, the test would not proceed to check the rest of the value types after the one that failed.
-- For the tests that verify a value's type were the type 'Number' also intentionally did not validate that the returned value was NaN.  This is because NaN is not a valid JSON type and thus cannot be a valid scenario.
+- For the tests that verify a value's type were the type 'Number', I intentionally did not validate that the returned value was NaN.  This is because NaN is not a valid JSON type and thus cannot be a valid scenario.
 - The tests for Total, Skip, and Limit were designed as a simple assertion as there is no need to loop since only 1 value is returned for each
